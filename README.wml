@@ -1,0 +1,472 @@
+\!{
+author	T. Nakagawa
+home	https://github.com/middle-river
+\!}
+
+\[lang_en\][English] \[[日本語]\:#lang_ja\]
+
+\1	Project List
+
+(These pages are currently migrating from middleriver.chagasi.com to GitHub, and English translation may not be fully available yet)
+
+\-{
+\[Image Display\:#display_en\]
+\[Radio\:#radio_en\]
+\[Drone\:#drone_en\]
+\[Instrument/Tool\:#instrument_en\]
+\[PC\:#pc_en\]
+\[Software/Network\:#software_en\]
+\[Audio\:#audio_en\]
+\[Others\:#others_en\]
+\-}
+
+\2	\[display_en\]Image Display
+
+\*{
+\[Large Photo Frame with a 13.3 inch 6 Color E-Paper\:https://github.com/middle-river/color_epd_photo3\]
+A digital photo frame using a 13.3 inch color e-paper.
+\[Photo Frame with a 7.3 inch 7 color E-Paper\:http://middleriver.chagasi.com/electronics/color_epd_photo2/\]
+A digital photo frame using a 7.3 inch color e-paper.
+\[Weather Station with a 6 inch E-Paper\:http://middleriver.chagasi.com/electronics/e_monitor/\]
+A monitor for displaying electricity usage, temperature and humidity using an e-paper.
+\[Photo Frame with a 7 color E-Paper\:http://middleriver.chagasi.com/electronics/color_epd_photo/\]
+A digital photo frame using color e-paper.
+\[Mandelbrot Set Viewer\:http://middleriver.chagasi.com/electronics/mandelbrot/\]
+A viewer with ESP32 and LCD for exploring the Mandelbrot set.
+\[Photo Frame with a 6 inch E-Paper\:http://middleriver.chagasi.com/electronics/epd_photo/\]
+A digital photo frame using a monochrome e-paper.
+\[Information Display with an E-Paper\:http://middleriver.chagasi.com/electronics/e_info.html\]
+A monitor for displaying daily information like weather forecasting and foreign exchange market using e-paper.
+\*}
+
+\2	\[radio_en\]Radio
+
+\*{
+\[Software Defined Radio for the JJY Station with STM32F103\:http://middleriver.chagasi.com/electronics/jjy_sdr\]
+An SDR for receiving long-wave JJY signals using a Blue Pill microcontroller board.
+\[Direct Sampling Software Defined Radio with STM32F4\:http://middleriver.chagasi.com/electronics/stm32_sdr/\]
+A standalone SDR using STM32F407.
+\[Receiving Long-wave JJY Signals\:http://middleriver.chagasi.com/electronics/jjy.html\]
+Long-wave JJY standard radio signals (40 kHz and 60 kHz) were received using SDR.
+\*}
+
+\2	\[drone_en\]Drone
+\*{
+\[Making Small Drones (80/120/125/150mm Quadcopter)\:http://middleriver.chagasi.com/electronics/drone/\]
+Small 1S/2S drones using my own flight controller.
+\[USB Adapter for RC Transmitters\:http://middleriver.chagasi.com/electronics/usb_tx/\]
+An adapter which transfers signals from RC transmitters to PCs as a USB HID device.
+\[Making a Flight Controller for Drones with STM32\:http://middleriver.chagasi.com/electronics/stm32_fc/\]
+Hardware and software of a flight controller using STM32.
+\[Micro Drone (120mm Quadcopter)\:http://middleriver.chagasi.com/electronics/micro_drone.html\]
+A quadcopter using 1S brushless motors.
+\[Mini Drone (200mm Quadcopter)\:http://middleriver.chagasi.com/electronics/mini_drone.html\]
+A quadcopter using 2S brushless motors.
+\[Flight Controller for Drones (Hardware)\:http://middleriver.chagasi.com/electronics/avrfc_hw.html\]
+A flight controller which integrates RX and PDB and is compatible with MultiWii.
+\[Lithium Polymer Battery Charger\:http://middleriver.chagasi.com/electronics/lipo_charger.html\]
+A LiPo charger using a charger IC.
+\[RC Receiver for HiSKY Transmitters\:http://middleriver.chagasi.com/electronics/hisky_rx.html\]
+A receiver which can be used with HiSKY transmitters.
+\[RC Transmitter and Receiver with Wi-Fi\:http://middleriver.chagasi.com/electronics/wifi_rc.html\]
+RC transmitter and receiver using ESP8266.
+\*}
+
+\2	\[instrument_en\]Instrument/Tool
+\*{
+\[Simple Jigsaw Table\:http://middleriver.chagasi.com/electronics/jigsaw_stand/\]
+A simple table for jigsaw.
+\[Weather Monitoring System (Temperature/Humidity/Pressure) with ESP32\:http://middleriver.chagasi.com/electronics/weather_station/\]
+A system for sending weather information obtained from a sensor to Linux servers using ESP32.
+\[LiPo Battery Tester and ATtiny202 Programmer (jtag2updi)\:http://middleriver.chagasi.com/electronics/lipo_checker/\]
+A voltmeter for LiPo batteries and a flash programmer for ATtiny202 (jtag2updi).
+\[RF Attenuator\:http://middleriver.chagasi.com/electronics/att/\]
+A step attenuator for radio frequency.
+\[Demagnetizer\:http://middleriver.chagasi.com/electronics/demagnetizer/\]
+A demagnetizer which is attached to a power drill.
+\[Variable DC Power Supply ZK-4KX and Electronic Load XY-FZ25/FZ35\:http://middleriver.chagasi.com/electronics/ps_el.html\]
+A variable power supply module and an electronic load module were used by enclosing in cases.
+\[Making Own PCBs with a CNC Router\:http://middleriver.chagasi.com/electronics/cnc1610.html\]
+Precise PCBs were created by customizing CNC1610.
+\[Wireless microSD Card\:http://middleriver.chagasi.com/electronics/esp32_sdc.html\]
+A microSD card which is accessible with WiFi by using ESP32.
+\[3D Scanner with a Line Laser\:http://middleriver.chagasi.com/electronics/3d_scanner.html\]
+A 3D scanner was made by attaching a camera and a laser module to Raspberry Pi.
+\[Customizing the 3D Printer Anet A8\:http://middleriver.chagasi.com/electronics/anet_a8.html\]
+Some settings and modifications for Anet A8.
+\[Thermo-Hygrometer with AM2302\:http://middleriver.chagasi.com/electronics/temp_humid.html\]
+A thermo-hygrometer using the sensor module AM2302.
+\[Variable DC Power Supply with a DC-DC Converter\:http://middleriver.chagasi.com/electronics/vvps2.html\]
+A 5 A variable DC power supply using the step-down adjustable DC-DC module XL4005.
+\[Simple 2.4 GHz Scanner\:http://middleriver.chagasi.com/electronics/nrf24l01_scanner.html\]
+A simple scanner for 2.4 GHz band using nRF24L01+.
+\[FTDI USB Serial Adapter and Handmade Arduino\:http://middleriver.chagasi.com/electronics/ftdi_usb_serial.html\]
+A USB-Serial adapter using FTDI FT232RL.
+\[10 MHz Frequency Standard with GPS\:http://middleriver.chagasi.com/electronics/gpsfrqstd.html\]
+A precise 10 MHz frequency standard using GPS.
+\[NTSC Color Pattern Generator\:http://middleriver.chagasi.com/electronics/ntscpatgen.html\]
+An NTSC color pattern generator using AVR.
+\[AVR Programmer (USBasp) and Socket for ATtiny10\:http://middleriver.chagasi.com/electronics/usbasp.html\]
+The AVR programmer USBasp and a socket for flashing were made for ATtiny10.
+\[Frequency Counter with AVR\:http://middleriver.chagasi.com/electronics/fcnt.html\]
+A frequency counter using AVR.
+\[RF Power Meter/FRMS\:http://middleriver.chagasi.com/electronics/rfpm.html\]
+An RF power meter which can also be used as Frequency Response Measuring System (FRMS).
+\[DDS with AD9851\:http://middleriver.chagasi.com/electronics/dds.html\]
+A Direct Digital Synthesizer for 0-45 MHz using AD9851 and AVR.
+\[Function Generator with XR-2206\:http://middleriver.chagasi.com/electronics/fg.html\]
+0.2 Hz-2 MHz function generator using XR-2206.
+\[Variable DC Power Supply with LT3080\:http://middleriver.chagasi.com/electronics/vvps.html\]
+A variable DC power supply using LT3080.
+\[Generating G-code with dxf2gcode\:http://middleriver.chagasi.com/electronics/dxf2gcode.html\]
+G-code for CNC milling was generated using dxf2gcode from DXF files outputted by QCAD.
+\[Application of OWON Digital Oscilloscope PDS5022S\:http://middleriver.chagasi.com/electronics/owondso.html\]
+Signals are captured from OWON digital oscilloscope PDS5022S and analyzed with FFT.
+\[Converting a Mill to CNC\:http://middleriver.chagasi.com/electronics/cnc.html\]
+Proxxon Micro Mill was converted to CNC using own motor drivers and EMC2.
+\[Experiment of Handmade PCBs by Scribing\:http://middleriver.chagasi.com/electronics/pcb.html\]
+An experiment of an approach for making PCB by scribing etch resist.
+\[LC Meter with AVR\:http://middleriver.chagasi.com/electronics/lcmeter.html\]
+A calibration-free LC meter using AVR.
+\[Illuminometer\:http://middleriver.chagasi.com/electronics/lux.html\]
+An illuminometer using the photo transistor NJL7502L.
+\*}
+
+\2	\[pc_en\]PC
+
+\*{
+\[Remote Shutter for Smartphone Headphone Jacks\:http://middleriver.chagasi.com/electronics/hpremote/\]
+A remote shutter cable for Android phones.
+\[USB Cable with Power Control and Text-Based File Manager for a 2k Small Display\:http://middleriver.chagasi.com/electronics/usb_ps/\]
+A USB cable for controlling power supply and a text-based file manager were made for utilizing a small 2k display.
+\[Very Small Trackpad\:http://middleriver.chagasi.com/electronics/tiny_trackpad/\]
+A 8x8 mm USB trackpad.
+\[Very Small Trackball\:http://middleriver.chagasi.com/electronics/tiny_trackball.html\]
+A 5.5mm diameter USB trackball.
+\[Compact USB Keyboard\:http://middleriver.chagasi.com/electronics/mini_keyboard.html\]
+A compact USB keyboard.
+\[Small Terminal for Controlling Linux\:http://middleriver.chagasi.com/electronics/mini_term.html\]
+A small USB graphical terminal with Kanji font ROM for controlling Linux.
+\[Cases and Power Supply Units for Mini-ITX\:http://middleriver.chagasi.com/electronics/miniitx.html\]
+Handmade cases and power supply units for Mini-ITX motherboards.
+\[Text Terminal with AVR\:http://middleriver.chagasi.com/electronics/avrterm.html\]
+A text terminal used as a serial console for Unix via RS-232C.
+\[Small Terminal for Linux with a Color Graphic LCD\:http://middleriver.chagasi.com/electronics/lcdterm.html\]
+A color graphic LCD and switches were used as a file manager for a Linux machine.
+\[LCD2USB using a Tiny Character LCD\:http://middleriver.chagasi.com/electronics/lcd2usb2.html\]
+A tiny character LCD was used for monitoring PC status.
+\[Software for the CASIO label printer DP-300\:http://middleriver.chagasi.com/electronics/dp300.html\]
+Software for printing labels using the CASIO label printer DP-300.
+\[Floppy Disk Emulator with AVR\:http://middleriver.chagasi.com/electronics/fddemu.html\]
+A device which behaves like a floppy disk using the internal flash ROM.
+\[Controlling Linux with a Color Graphic LCD Connected via USB\:http://middleriver.chagasi.com/electronics/usblcddisp.html\]
+A graphic LCD was connected to a Linux server, and a file manager was made for using various files like music and images.
+\[IR Remote for Controlling Windows Applications (Winamp)\:http://middleriver.chagasi.com/electronics/usbirrx.html\]
+Winamp was controlled using IgorPlug-USB.
+\[USB Adapter for PlayStation Controllers (usbjoy)\:http://middleriver.chagasi.com/electronics/pspad2usb.html\]
+A USB adapter for using PlayStation controllers in PC.
+\[LCD for Monitoring PC Status (lcd2usb)\:http://middleriver.chagasi.com/electronics/lcd2usb.html\]
+A PC status monitor using AVR.
+\*}
+
+\2	\[software_en\]Software/Network
+
+\*{
+\[Markup Language for Web Pages\:https://github.com/middle-river/wml2html\]
+An own lightweight markup language for Web pages.
+\[Internet Radio with AVR\:http://middleriver.chagasi.com/electronics/webradio.html\]
+An Internet radio using AVR (ATmega328P) and an own TCP/IP protocol stack.
+\[uSock: A TCP/IP Protocol Stack for Small Microcontrollers\:http://middleriver.chagasi.com/electronics/usock.html\]
+A socket library for using TCP and UDP in small microcontrollers like 8-bit AVR.
+\[Tiny Forth Language Interpreter\:http://middleriver.chagasi.com/electronics/tforth.html\]
+An interpreter of the programming language Forth for small microcontrollers.
+\[Web Server for AVR\:http://middleriver.chagasi.com/electronics/avrwww.html\]
+A Web server was run on ATmega8 using a PCMCIA LAN card.
+\[Implementation of Very Tiny Language (VTL)\:http://middleriver.chagasi.com/electronics/vtl.html\]
+A very small programming language interpreter.
+\*}
+
+\2	\[audio_en\]Audio
+
+\*{
+\[Small Speaker and Class-D + Headphone Amplifier\:http://middleriver.chagasi.com/electronics/dualamp_spk/\]
+A small speaker and an amplifier which combines the class-D amplifier TPA3118D2 and the headphone amplifier LME49726.
+\[Speaker Amplifier and Headphone Amplifier\:http://middleriver.chagasi.com/electronics/sphpamp.html\]
+A class-D speaker amplifier using TPA3117D2 and a headphone amplifier using TPA6120A2.
+\[Class-D Power Amplifier and Speaker\:http://middleriver.chagasi.com/electronics/ampspk.html\]
+A speaker box and an amplifier using the 2x20 W class-D amplifier IC MAX98400A.
+\[Powered Speaker with PAM8403\:http://middleriver.chagasi.com/electronics/actsp.html\]
+A speaker box and a class-D amplifier using PAM8403.
+\[Repairing an MP3 Player\:http://middleriver.chagasi.com/electronics/mp3p.html\]
+An MP3 player was repaired.
+\[Audio Amplifier 4: TA2020 Digital Amplifier\:http://middleriver.chagasi.com/electronics/damp.html\]
+A 20 W stereo power amplifier using TA2020.
+\[Audio Amplifier 3: TDA1552Q Power Amplifier\:http://middleriver.chagasi.com/electronics/pamp.html\]
+A 22 W stereo power amplifier using TDA1552Q.
+\[Audio Amplifier 2: Chu-Moy Headphone Amplifier\:http://middleriver.chagasi.com/electronics/hamp.html\]
+A simple headphone amplifier using an op-amp.
+\[Audio Amplifier 1: YAHA Headphone Amplifier\:http://middleriver.chagasi.com/electronics/yaha.html\]
+A simple hybrid amplifier using a vacuum tube (6922).
+\*}
+
+\2	\[others_en\]Others
+
+\*{
+\[Book Scanner\:http://middleriver.chagasi.com/electronics/book_scanner/\]
+A collapsible book scanner using a phone camera.
+\[USB Desktop Time Bell\:http://middleriver.chagasi.com/electronics/bell.html\]
+A small bell controlled via USB for informing time.
+\[Small Container Rack\:http://middleriver.chagasi.com/electronics/container_rack.html\]
+A compact tall rack for storing tools.
+\[IR Remote Transmitter and Receiver\:http://middleriver.chagasi.com/electronics/irremctrl.html\]
+IR remote transmitter and receiver for home appliances.
+\[IR Remote for Room Lights\:http://middleriver.chagasi.com/electronics/irremote.html\]
+An IR transmitter for turning room lights on and off.
+\[Kitchen Timer with CPLD\:http://middleriver.chagasi.com/electronics/cpldtimer.html\]
+An electronic dice and a kitchen timer using CPLD.
+\[Voice Recorder\:http://middleriver.chagasi.com/electronics/sndrec.html\]
+A simple voice recorder using an IC.
+\[LED Ring Light\:http://middleriver.chagasi.com/electronics/ringlight.html\]
+A ring light for close-up pictures with digital cameras.
+\[Conversion of a Small Light to LED\:http://middleriver.chagasi.com/electronics/ledlight.html\]
+An LED light which works with a single AA battery.
+\[IR Remote Shutter for Olympus Cameras\:http://middleriver.chagasi.com/electronics/rm1.html\]
+An IR remote shutter using AVR.
+\[GPS Logger\:http://middleriver.chagasi.com/electronics/gpslogger.html\]
+A GPS logger using AVR and the GPS module GPS-52D.
+\*}
+
+\=
+
+\[[English]\:#lang_en\] \[lang_ja\][日本語]
+
+\1	プロジェクト一覧
+
+(これらのページはmiddleriver.chagasi.comからGitHubへ現在移行中です)
+
+\-{
+\[画像表示\:#display_ja\]
+\[無線\:#radio_ja\]
+\[ドローン\:#drone_ja\]
+\[測定器・ツール\:#instrument_ja\]
+\[パソコン\:#pc_ja\]
+\[ソフトウェア・ネットワーク\:#software_ja\]
+\[オーディオ\:#audio_ja\]
+\[その他\:#others_ja\]
+\-}
+
+\2	\[display_ja\]画像表示
+
+\*{
+\[13.3インチ6色カラー電子ペーパーを使った大型フォトフレーム\:https://github.com/middle-river/color_epd_photo3\]
+カラー表示の13.3インチ電子ペーパーを使ったフォトフレーム
+\[7.3インチ7色カラー電子ペーパーを使った実用的なフォトフレーム\:http://middleriver.chagasi.com/electronics/color_epd_photo2/\]
+カラー表示の7インチ電子ペーパーを使ったフォトフレーム
+\[6インチ電子ペーパーを使った環境モニター\:http://middleriver.chagasi.com/electronics/e_monitor/\]
+消費電力や温度・湿度等を電子ペーパーで常時表示するモニター
+\[7色カラー表示電子ペーパーを使ったフォトフレーム\:http://middleriver.chagasi.com/electronics/color_epd_photo/\]
+カラー表示の電子ペーパーを使ったフォトフレーム
+\[マンデルブロ集合ビューアー\:http://middleriver.chagasi.com/electronics/mandelbrot/\]
+マンデルブロ集合を自在に表示できるビューアー
+\[6インチ電子ペーパーを使ったフォトフレーム\:http://middleriver.chagasi.com/electronics/epd_photo/\]
+電子ペーパーを使ったモノクロのフォトフレーム
+\[電子ペーパーを使った情報表示装置\:http://middleriver.chagasi.com/electronics/e_info.html\]
+電子ペーパーを使って天気や為替等のその日の情報を表示
+\*}
+
+\2	\[radio_ja\]無線
+
+\*{
+\[JJY受信用ソフトウェアラジオをSTM32F103で作る\:http://middleriver.chagasi.com/electronics/jjy_sdr\]
+Blue Pillマイコンボードを使って長波JJY受信専用のソフトウェアラジオを作成
+\[STM32F4を使用したダイレクトサンプリング方式ソフトウェアラジオ\:http://middleriver.chagasi.com/electronics/stm32_sdr/\]
+STM32F407単体で動作するソフトウェアラジオ
+\[長波JJYの受信\:http://middleriver.chagasi.com/electronics/jjy.html\]
+長波の標準電波(40kHzと60kHz)をSDRで受信
+\*}
+
+\2	\[drone_ja\]ドローン
+\*{
+\[小型ドローン(80/120/125/150mmクアッドコプター)の自作\:http://middleriver.chagasi.com/electronics/drone/\]
+自作フライトコントローラーを使用した1S/2S用の小型ドローン
+\[USB用無線プロポアダプター\:http://middleriver.chagasi.com/electronics/usb_tx/\]
+プロポからの信号を受信してUSB HIDデバイスとして動作するアダプター
+\[STM32を使用したドローン用フライトコントローラーの自作\:http://middleriver.chagasi.com/electronics/stm32_fc/\]
+STM32を使用してフライトコントローラーのハードウェアとソフトウェアを自作
+\[マイクロドローン(120mmクアッドコプター)\:http://middleriver.chagasi.com/electronics/micro_drone.html\]
+1Sのブラシレスモーターを使ったクアッドコプター
+\[ミニドローン(200mmクアッドコプター)\:http://middleriver.chagasi.com/electronics/mini_drone.html\]
+2Sのブラシレスモーターを使ったクアッドコプター
+\[ドローン用フライトコントローラー(ハードウェア編)\:http://middleriver.chagasi.com/electronics/avrfc_hw.html\]
+受信機や分電盤を統合したMultiWii互換フライトコントローラーの自作
+\[リチウムポリマー電池充電器\:http://middleriver.chagasi.com/electronics/lipo_charger.html\]
+専用ICを使ったLiPo充電器
+\[HiSKY社プロポ用RC受信機\:http://middleriver.chagasi.com/electronics/hisky_rx.html\]
+HiSKY社のプロポで使用可能な受信機の自作
+\[Wi-Fiを使用したRC送受信機\:http://middleriver.chagasi.com/electronics/wifi_rc.html\]
+ESP8266を使ったラジコン送信機・受信機
+\*}
+
+\2	\[instrument_ja\]測定器・ツール
+\*{
+\[ジグソー用簡易スタンド\:http://middleriver.chagasi.com/electronics/jigsaw_stand/\]
+ジグソーを固定して使うための簡単なスタンド
+\[ESP32を使った環境測定システム(気温・湿度・気圧)\:http://middleriver.chagasi.com/electronics/weather_station/\]
+センサーで測定した気温等をESP32でサーバーに送って可視化するシステム
+\[LiPo電池チェッカーとATtiny202用ライター(jtag2updi)\:http://middleriver.chagasi.com/electronics/lipo_checker/\]
+LiPo電池用の電圧計とATtiny202用の書き込み器(jtag2updi)
+\[RFアッテネーター\:http://middleriver.chagasi.com/electronics/att/\]
+高周波用のステップアッテネーター
+\[消磁器\:http://middleriver.chagasi.com/electronics/demagnetizer/\]
+電動ドリルに取り付けて使う消磁器
+\[可変電源ZK-4KXと電子負荷XY-FZ25/FZ35\:http://middleriver.chagasi.com/electronics/ps_el.html\]
+可変電源と電子負荷のモジュールをケースに収めて利用
+\[CNCルーターによるプリント基板の自作\:http://middleriver.chagasi.com/electronics/cnc1610.html\]
+CNC1610を改造して精密なプリント基板を切削加工
+\[ワイヤレスmicroSDカード\:http://middleriver.chagasi.com/electronics/esp32_sdc.html\]
+ESP32を使用したWiFiでアクセス可能なmicroSDカード
+\[ラインレーザーを使った3Dスキャナー\:http://middleriver.chagasi.com/electronics/3d_scanner.html\]
+Raspberry Piにカメラとレーザーモジュールを付けて3Dスキャナーとして使用
+\[3DプリンターAnet A8の活用\:http://middleriver.chagasi.com/electronics/anet_a8.html\]
+Anet A8の基本設定と使いやすくするための改造
+\[AM2302を使った温度・湿度計\:http://middleriver.chagasi.com/electronics/temp_humid.html\]
+温湿度センサモジュールAM2302を使用した温度・湿度計
+\[可変スイッチング電源\:http://middleriver.chagasi.com/electronics/vvps2.html\]
+可変ステップダウンDC-DCモジュールXL4005を使用した5A可変電圧電源
+\[2.4GHz帯簡易スキャナー\:http://middleriver.chagasi.com/electronics/nrf24l01_scanner.html\]
+nRF24L01+を使用した2.4GHz帯用簡易スキャナー
+\[FTDI USBシリアル変換アダプターと自作Arduino\:http://middleriver.chagasi.com/electronics/ftdi_usb_serial.html\]
+FTDIのFT232RLを使ったUSBシリアル変換器の作成
+\[GPSを用いた10MHz基準周波数発生器\:http://middleriver.chagasi.com/electronics/gpsfrqstd.html\]
+GPSを使った高精度な10MHzの周波数発生器
+\[NTSCカラーパターンジェネレータ\:http://middleriver.chagasi.com/electronics/ntscpatgen.html\]
+AVRを使ったNTSCカラーパターン発生器
+\[ATtiny10のためのAVRライター(USBasp)とソケット\:http://middleriver.chagasi.com/electronics/usbasp.html\]
+ATtiny10を使うためにAVRライターUSBaspと書き込み用ソケットを作成しLinux上の開発環境を整備
+\[AVRによる周波数カウンタ\:http://middleriver.chagasi.com/electronics/fcnt.html\]
+AVRを使った周波数カウンタ
+\[高周波パワーメーター/FRMS\:http://middleriver.chagasi.com/electronics/rfpm.html\]
+フィルター特性測定システム(FRMS)としても利用できる高周波パワーメーター
+\[AD9851によるDDS\:http://middleriver.chagasi.com/electronics/dds.html\]
+AD9851とAVRを使った0～45MHzのDirect Digital Synthesizer
+\[XR-2206によるファンクションジェネレータ\:http://middleriver.chagasi.com/electronics/fg.html\]
+XR-2206を使った0.2Hz～2MHzのファンクションジェネレータ
+\[LT3080による可変電圧電源\:http://middleriver.chagasi.com/electronics/vvps.html\]
+LT3080を使った実験用の可変電圧電源
+\[dxf2gcodeによるGコードの生成\:http://middleriver.chagasi.com/electronics/dxf2gcode.html\]
+QCADで作成したDXFファイルからdxf2gcodeを用いてCNCフライス用のGコードを生成
+\[OWON製オシロスコープPDS5022Sの活用\:http://middleriver.chagasi.com/electronics/owondso.html\]
+OWON製デジタルストレージオシロPDS5022Sからリアルタイムにデータを取り込みFFTで解析
+\[CNCフライス盤の製作\:http://middleriver.chagasi.com/electronics/cnc.html\]
+プロクソンのマイクロフライステーブルを，自作モータードライバとEMC2でCNC化
+\[ケガキ法によるプリント基板作成の実験\:http://middleriver.chagasi.com/electronics/pcb.html\]
+レジストをケガいてプリント基板を作る方法の検討
+\[AVRによるLCメーター\:http://middleriver.chagasi.com/electronics/lcmeter.html\]
+AVRを使った簡単な無調整のLCメーター
+\[照度計\:http://middleriver.chagasi.com/electronics/lux.html\]
+フォトトランジスタNJL7502Lを使った照度計
+\*}
+
+\2	\[pc_ja\]パソコン
+
+\*{
+\[スマホ用ヘッドフォンリモコン\:http://middleriver.chagasi.com/electronics/hpremote/\]
+Androidスマホのシャッターを切るために作った有線リモコン
+\[給電制御付きUSBケーブルと2k小型ディスプレイの活用\:http://middleriver.chagasi.com/electronics/usb_ps/\]
+PCから制御可能なUSBケーブルによる給電とLinuxサーバーでの2k小型ディスプレイの活用
+\[超小型トラックパッド\:http://middleriver.chagasi.com/electronics/tiny_trackpad/\]
+8x8mmサイズのUSB接続トラックパッド
+\[超小型トラックボール\:http://middleriver.chagasi.com/electronics/tiny_trackball.html\]
+直径5.5mmのUSB接続トラックボール
+\[コンパクトなUSBキーボード\:http://middleriver.chagasi.com/electronics/mini_keyboard.html\]
+小型のUSB有線キーボード
+\[Linuxコントロール用小型端末\:http://middleriver.chagasi.com/electronics/mini_term.html\]
+漢字フォントROMを内蔵したUSB接続のLinuxコントロール用小型端末
+\[Mini-ITX用のケースと電源\:http://middleriver.chagasi.com/electronics/miniitx.html\]
+Mini-ITX規格のマザーボード用に自作したケースと電源
+\[AVRによるキャラクタ端末\:http://middleriver.chagasi.com/electronics/avrterm.html\]
+RS-232CでUnix系OSに接続してシリアルコンソールとして使うキャラクタ端末
+\[カラーグラフィックLCDを使用したLinux用小型端末\:http://middleriver.chagasi.com/electronics/lcdterm.html\]
+カラーグラフィックLCDとスイッチをLinuxマシンから仮想端末として制御しファイルマネージャーで利用
+\[極小キャラクタ液晶を使ったLCD2USB\:http://middleriver.chagasi.com/electronics/lcd2usb2.html\]
+超小型キャラクタLCDを使ったPCの状態表示
+\[ラベルプリンターCASIO DP-300用印刷ソフト\:http://middleriver.chagasi.com/electronics/dp300.html\]
+ラベルプリンターCASIO DP-300を制御してラベルを印刷するためのソフト
+\[AVRを用いたフロッピーディスクドライブエミュレータ\:http://middleriver.chagasi.com/electronics/fddemu.html\]
+フロッピーディスクドライブのように振る舞いフラッシュROMの内容を出力するデバイス
+\[USB接続カラーグラフィックLCDによる自宅サーバの活用\:http://middleriver.chagasi.com/electronics/usblcddisp.html\]
+グラフィックLCDをサーバーに接続し様々なファイル(音楽，画像，etc)を選択して実行できるファイラーを作成
+\[リモコンによるWindowsアプリケーション(Winamp)の操作\:http://middleriver.chagasi.com/electronics/usbirrx.html\]
+IgorPlug-USBにより赤外線リモコンでWinampを操作する
+\[PlayStationのコントローラー→USB変換アダプタ(usbjoy)\:http://middleriver.chagasi.com/electronics/pspad2usb.html\]
+プレイステーションのコントローラーをUSBでパソコンにつなげるためのアダプタ
+\[PCの状態表示用LCD(lcd2usb)\:http://middleriver.chagasi.com/electronics/lcd2usb.html\]
+AVRを使ったUSB接続のPC状態表示モニタ
+\*}
+
+\2	\[software_ja\]ソフトウェア・ネットワーク
+
+\*{
+\[自作のWebページ用マークアップ言語\:https://github.com/middle-river/wml2html\]
+Webページ作成用の軽量マークアップ言語
+\[AVRによるインターネットラジオ\:http://middleriver.chagasi.com/electronics/webradio.html\]
+AVR (ATmega328P)と自作TCP/IPプロトコルスタックを使用したインターネットラジオの製作
+\[小規模マイクロコントローラ用TCP/IPプロトコルスタックuSockの作成\:http://middleriver.chagasi.com/electronics/usock.html\]
+AVR等の小規模なマイクロコントローラでTCPやUDPを利用するためのソケットライブラリの開発
+\[Tiny Forthインタープリタ\:http://middleriver.chagasi.com/electronics/tforth.html\]
+組み込みマイコン用の超小型Forthインタープリタ
+\[AVRで動かすWebサーバ\:http://middleriver.chagasi.com/electronics/avrwww.html\]
+ATmega8をPCMCIAのLANカードにつないでWebサーバを動かす
+\[VTL(Very Tiny Language)の作成\:http://middleriver.chagasi.com/electronics/vtl.html\]
+非常にサイズの小さいインタープリタ型言語処理系
+\*}
+
+\2	\[audio_ja\]オーディオ
+
+\*{
+\[小型スピーカーとD級スピーカー&amp;ヘッドフォンアンプ\:http://middleriver.chagasi.com/electronics/dualamp_spk/\]
+D級アンプTPA3118D2とヘッドフォンアンプLME49726を組み合わせたアンプと小型スピーカーの製作
+\[スピーカーアンプとヘッドフォンアンプ\:http://middleriver.chagasi.com/electronics/sphpamp.html\]
+D級アンプTPA3117D2を使用したスピーカーアンプとTPA6120A2を使用したヘッドフォンアンプ
+\[D級パワーアンプとスピーカー\:http://middleriver.chagasi.com/electronics/ampspk.html\]
+2x20W D級動作のMAX98400Aを使用したアンプとスピーカーボックスの製作
+\[PAM8403を使用したアクティブスピーカー\:http://middleriver.chagasi.com/electronics/actsp.html\]
+D級アンプのPAM8403を使用したアンプとスピーカーボックスの製作
+\[MP3プレーヤーの修理\:http://middleriver.chagasi.com/electronics/mp3p.html\]
+ジャンクのMP3プレーヤーの修理の記録
+\[オーディオアンプその4 ～ TA2020デジタルアンプ\:http://middleriver.chagasi.com/electronics/damp.html\]
+TA2020を使った20Wステレオパワーアンプ
+\[オーディオアンプその3 ～ TDA1552Qパワーアンプ\:http://middleriver.chagasi.com/electronics/pamp.html\]
+TDA1552Qを使った22Wステレオパワーアンプ
+\[オーディオアンプその2 ～ Chu-Moy型ヘッドホンアンプ\:http://middleriver.chagasi.com/electronics/hamp.html\]
+オペアンプを使ったシンプルなヘッドホンアンプ
+\[オーディオアンプその1 ～ YAHAヘッドホンアンプ\:http://middleriver.chagasi.com/electronics/yaha.html\]
+真空管(6922)1個を使ったシンプルなハイブリッドアンプ
+\*}
+
+\2	\[others_ja\]その他
+
+\*{
+\[ブックスキャナー\:http://middleriver.chagasi.com/electronics/book_scanner/\]
+スマホカメラを使った組立式のブックスキャナー
+\[USB卓上時鐘\:http://middleriver.chagasi.com/electronics/bell.html\]
+机の上に置けるUSB制御可能な時鐘
+\[コンテナラック\:http://middleriver.chagasi.com/electronics/container_rack.html\]
+工具類を整理するための収納密度の高いコンテナラック
+\[赤外線リモコンの受信機と送信機\:http://middleriver.chagasi.com/electronics/irremctrl.html\]
+家電製品で使うための赤外線リモコン受信機と送信機
+\[照明用赤外線リモコン\:http://middleriver.chagasi.com/electronics/irremote.html\]
+照明ON/OFF用の赤外線リモコン
+\[CPLDで作るキッチンタイマー\:http://middleriver.chagasi.com/electronics/cpldtimer.html\]
+CPLDを使用した電子サイコロとキッチンタイマー
+\[ボイスレコーダ\:http://middleriver.chagasi.com/electronics/sndrec.html\]
+専用のICを使った簡単なボイスレコーダ
+\[LEDリングライト\:http://middleriver.chagasi.com/electronics/ringlight.html\]
+デジカメでの接写用リングライト
+\[小型100円ライトのLED化\:http://middleriver.chagasi.com/electronics/ledlight.html\]
+単3電池1本で使える白色LEDライト
+\[オリンパスデジカメ用リモコン\:http://middleriver.chagasi.com/electronics/rm1.html\]
+AVRを使ったデジカメ操作用赤外線リモコン
+\[GPSロガー\:http://middleriver.chagasi.com/electronics/gpslogger.html\]
+AVRと秋月のGPSモジュール(GPS-52D)を使ったGPSロガー
+\*}
