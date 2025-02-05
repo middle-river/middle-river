@@ -19,7 +19,7 @@
 <dl>
 <dt><a href="https&#58;//github.com/middle-river/color_epd_photo3">Large Photo Frame with a 13.3 inch 6 Color E-Paper</a></dt>
 <dd>A digital photo frame using a 13.3 inch color e-paper.</dd>
-<dt><a href="http&#58;//middleriver.chagasi.com/electronics/color_epd_photo2/">Photo Frame with a 7.3 inch 7 color E-Paper</a></dt>
+<dt><a href="https&#58;//github.com/middle-river/color_epd_photo2">Improved Photo Frame with a 7.3 inch 7 color E-Paper</a></dt>
 <dd>A digital photo frame using a 7.3 inch color e-paper.</dd>
 <dt><a href="http&#58;//middleriver.chagasi.com/electronics/e_monitor/">Weather Station with a 6 inch E-Paper</a></dt>
 <dd>A monitor for displaying electricity usage, temperature and humidity using an e-paper.</dd>
