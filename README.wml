@@ -1,6 +1,7 @@
 \!{
 author	T. Nakagawa
 home	https://github.com/middle-river
+paragraph_newline	 
 \!}
 
 \[lang_en\][English] \[[日本語]\:#lang_ja\]
@@ -25,11 +26,11 @@ home	https://github.com/middle-river
 \*{
 \[Large Photo Frame with a 13.3 inch 6 Color E-Paper\:https://github.com/middle-river/color_epd_photo3\]
 A digital photo frame using a 13.3 inch color e-paper.
-\[Improved Photo Frame with a 7.3 inch 7 color E-Paper\:https://github.com/middle-river/color_epd_photo2\]
+\[Improved Photo Frame with a 7.3 inch 7 Color E-Paper\:https://github.com/middle-river/color_epd_photo2\]
 A digital photo frame using a 7.3 inch color e-paper.
 \[Weather Station with a 6 inch E-Paper\:http://middleriver.chagasi.com/electronics/e_monitor/\]
 A monitor for displaying electricity usage, temperature and humidity using an e-paper.
-\[Photo Frame with a 7 color E-Paper\:http://middleriver.chagasi.com/electronics/color_epd_photo/\]
+\[Photo Frame with a 7 Color E-Paper\:http://middleriver.chagasi.com/electronics/color_epd_photo/\]
 A digital photo frame using color e-paper.
 \[Mandelbrot Set Viewer\:http://middleriver.chagasi.com/electronics/mandelbrot/\]
 A viewer with ESP32 and LCD for exploring the Mandelbrot set.
@@ -44,7 +45,7 @@ A monitor for displaying daily information like weather forecasting and foreign 
 \*{
 \[Software Defined Radio for the JJY Station with STM32F103\:http://middleriver.chagasi.com/electronics/jjy_sdr\]
 An SDR for receiving long-wave JJY signals using a Blue Pill microcontroller board.
-\[Direct Sampling Software Defined Radio with STM32F4\:http://middleriver.chagasi.com/electronics/stm32_sdr/\]
+\[Direct Sampling Software Defined Radio with STM32F4\:https://github.com/middle-river/stm32_sdr\]
 A standalone SDR using STM32F407.
 \[Receiving Long-wave JJY Signals\:http://middleriver.chagasi.com/electronics/jjy.html\]
 Long-wave JJY standard radio signals (40 kHz and 60 kHz) were received using SDR.
@@ -238,6 +239,8 @@ A GPS logger using AVR and the GPS module GPS-52D.
 
 \=
 
+\!	paragraph_newline	
+
 \[[English]\:#lang_en\] \[lang_ja\][日本語]
 
 \1	プロジェクト一覧
@@ -279,7 +282,7 @@ A GPS logger using AVR and the GPS module GPS-52D.
 \*{
 \[JJY受信用ソフトウェアラジオをSTM32F103で作る\:http://middleriver.chagasi.com/electronics/jjy_sdr\]
 Blue Pillマイコンボードを使って長波JJY受信専用のソフトウェアラジオを作成
-\[STM32F4を使用したダイレクトサンプリング方式ソフトウェアラジオ\:http://middleriver.chagasi.com/electronics/stm32_sdr/\]
+\[STM32F4を使用したダイレクトサンプリング方式ソフトウェアラジオ\:https://github.com/middle-river/stm32_sdr\]
 STM32F407単体で動作するソフトウェアラジオ
 \[長波JJYの受信\:http://middleriver.chagasi.com/electronics/jjy.html\]
 長波の標準電波(40kHzと60kHz)をSDRで受信
